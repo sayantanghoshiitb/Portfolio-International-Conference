@@ -1,0 +1,281 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>ISNACT 2015 home</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><img src="images/logo.png" title="doctor" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li class="active"><a href="index.html">Home </a></li>
+								<li><a href="papers.html">Call for papers</a></li>
+								<li><a href="registrations.html">registrations</a></li>
+								<li><a href="speakers.html">speakers</a></li>
+								<li><a href="committee.html">committee</a></li>
+                                <li><a href="sponsors.html">sponsors</a></li>	  
+							  <li><a href="accomodation.html">TA & accomodation</a></li>
+                                <li><a href="contact.html">contact</a></li> 
+							</ul>
+						 </nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		<!----- //End-header---->
+        
+        
+        
+        
+        
+     		<!----start-slider-script---->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+			      <ul class="rslides" id="slider4">
+                  <li>
+			           <a href="speakers.html"><img src="images/slide0.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			           <h1>ISNACT 2015</h1>
+			          		<label>19th, 20th, 21st February 2015</label>
+			          	</div>
+			          </div></a>
+			        </li>
+			        <li>
+			           <a href="sponsors.html"><img src="images/slide01.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<h1>ISNACT 2015</h1>
+			          		<label>19th, 20th, 21st February 2015</label>
+			          	</div>
+			          </div></a>
+			        </li>
+			        <li>
+			           <a href="sponsors.html"><img src="images/slide02.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<h1>ISNACT 2015</h1>
+			          		<label>19th, 20th, 21st February 2015</label>
+			          	</div>
+			          </div></a>
+			        </li>
+			        <li>
+			           <a href="sponsors.html"><img src="images/slide03.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<h1>ISNACT 2015</h1>
+			          		<label>19th, 20th, 21st February 2015</label>
+			          	</div>
+			          </div></a>
+			        </li> 
+			        <li>
+			           <a href="papers.html"><img src="images/slide00.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<h1>ISNACT 2015</h1>
+			          		<label>19th, 20th, 21st February 2015</label>
+			          	</div>
+			          </div></a>
+			        </li>
+			        <li>
+			           <a href="http://www.iitb.ac.in"><img src="images/slide1.jpg" alt="">
+			          <div class="caption">
+			          	<div class="slide-text-info">
+			          		<h1>IIT Bombay</h1>
+			          		<label>19th, 20th, 21st February 2015</label>
+			          	</div>
+			          </div></a>
+			        </li>
+			        <li>
+			           <a href="http://www.iitb.ac.in"><img src="images/slide2.jpg" alt="">
+			           <div class="caption">
+			           	<div class="slide-text-info">
+			          		<h1>Mumbai, India</h1>
+			          		<label>19th, 20th, 21st February 2015</label>
+			          	</div>
+			          </div></a>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clearfix"> </div>
+			<!----- //End-slider---->   
+        
+        
+        
+        
+        
+        
+        
+			<!---- about ---->
+			<div id="about" class="about">
+				<div class="container">
+					<div class="header about-header text-center">
+						<p align="left"><strong>ISNACT-2015</strong> aims at bringing together a panel of experts from medical oncology, academic institute and industry under one roof.<br>The symposium is designed to emphasize on the latest developments in applications of nanotechnology on translational and clinical cancer theranostics.
+<br>
+The important themes include:
+</p>
+<strong>
+<p align="left">
+<ul style="list-style-type:none">
+<li>Targeted drug and gene delivery</li>
+<li>Photothermal and Photodynamic therapies</li>
+<li>Ferrofluid and magnetic hyperthermia</li>
+<li>Non-invasive Imaging Diagnostics</li>
+<li>Translational Nanomedicines</li>
+<li>Stem Cells in Cancer</li>
+<li>Cancer Diagnostics</li>
+<li>Stimuli responsive delivery systems</li>
+</ul>
+</strong>
+</p>
+<br>
+<p align="left">
+This gathering of scientists from academic institute, industries, post-doctoral fellows and doctoral students would discuss on the above mentioned topics with emphasis on translational research.With the above in mind, one day workshop for interactive discussion and brain storming on translational cancer research would succeed the symposium and will be held on <strong>February 21, 2015.</strong>
+<br>
+We strongly encourage you and your colleagues to consider submitting your work as a valuable contribution to current cancer research. To make this symposium more focused and effective, it is proposed that the total number of participants should not, exceed, more than 150. In view of this, it is suggested that preferably, there should not be more than one submission from one group.<br>We look forward to welcome you in Mumbai at ISNACT-2015.</p>
+					</div>
+ 
+ 
+ 
+ 
+						  <div class="news_right">
+							<h3>Poster Specification</h3>
+							<p class="notice" style="color:blue;">Symposium Date:</br>February 19-21, 2015</br></br></p>
+											  <p class="notice" style="color:red;">The poster should be presented on the designated day of the conference 
+(will be announced later). The size of the poster should be: (36" X 44") inch
+  or   (90 X 120) cm</br></p>
+
+							</p></br>
+
+							<h3>Venue</h3>
+							<p class="notice">Victor Menezes Convention Centre</br>Indian Institute of Technology Bombay</br>Mumbai 400076, India</p>
+																				
+					    </div><!-- news_right --> 
+ 
+
+			<div id="about" class="about">
+				<div class="container">
+					<div class="header about-header text-center">
+                    <h1>SPEAKERS</h1>
+                    <a href="speakers.html"><img src="images/titlespeakers.jpg"></a>
+                    </div>
+                 </div>
+            </div> 
+ 
+                    
+
+				</div>
+				
+			</div>
+
+			<!---- contact ---->
+			<div class="clearfix"> </div>
+			<!--- copy-right ---->
+			<div class="copy-right">
+				<div class="container">
+				<div class="copy-right-left">
+					<p><a href="http://www.iitb.ac.in/en/about-iit-bombay/getting-to-iit-bombay">How to reach IIT Bombay</a></p>
+                    <p><a href="http://www.met.iitb.ac.in/">&copy; 2014-15 Metallurgical Engineeering & Materials Science, IIT Bombay</a></p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			</div>
+			<!--- copy-right ---->
+
+	</body>
+</html>
+
